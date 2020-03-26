@@ -89,7 +89,7 @@ class User {
     getNewId(){
         let usersId = localStorage.getItem('usersId')
         
-        if(!usersID > 0) window.id=0;
+        if(!usersId > 0) window.id=0;
     
         usersId++;
         localStorage.getItem('usersId',usersId)
